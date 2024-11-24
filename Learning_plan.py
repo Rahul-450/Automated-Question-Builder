@@ -501,7 +501,7 @@ learning_resources=[
 #     }
 # ]
 
-def generate_learning_plan(user_request,learning_resources,question_banks):
+def generate_learning_plan(user_request,question_banks):
         
         # Generate a learning plan based on user input
         prompt=f"""
@@ -708,6 +708,6 @@ def generate_learning_plan(user_request,learning_resources,question_banks):
             return ""
         
 
-print(str(generate_learning_plan(user_request,learning_resources,question_banks)))
+# print(str(generate_learning_plan(user_request,learning_resources,question_banks)))
                 
                         
